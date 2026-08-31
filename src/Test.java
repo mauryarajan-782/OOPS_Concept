@@ -11,8 +11,6 @@ public class Test {
 		
 		Test t1 = new Test();
 		
-		
-
 	}
 
 }
