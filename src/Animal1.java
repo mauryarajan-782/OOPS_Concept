@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Animal1 
+public class Animal1
 {
     public void run() 
     {
