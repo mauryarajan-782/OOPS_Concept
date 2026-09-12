@@ -22,6 +22,7 @@ class Student{
 		System.out.println("name : " + name + "rollno : " + rollno);
 		address.displayAddress();
 	}
+}
 	
 class MainApp {
 
@@ -32,6 +33,6 @@ class MainApp {
 			Student student = new Student(address);
 			
 			student.displayinfo();
+		
 		}
 }
- 
