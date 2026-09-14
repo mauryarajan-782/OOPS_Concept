@@ -1,11 +1,11 @@
+package association1;
 class Address{
 	
 	String city = "Delhi";
 	String country = "India";
 
 	void displayAddress() {
-		System.out.println("city : " + city + 
-				" country : " + country);
+		System.out.println("city : " + city + ", country : " + country);
 	}
 }
 	
@@ -21,8 +21,7 @@ class Student{
 	}
 	
 	void displayinfo() {
-		System.out.println("name : " + name +
-				" rollno : " + rollno);
+		System.out.println("name : " + name + ", rollno : " + rollno);
 		address.displayAddress();
 	}
 }
