@@ -4,8 +4,10 @@ class Address{
 	String country = "India";
 
 	void displayAddress() {
-		System.out.println("city : " + city + "country : " + country);
+		System.out.println("city : " + city + 
+				" country : " + country);
 	}
+}
 	
 class Student{
 	
@@ -19,20 +21,9 @@ class Student{
 	}
 	
 	void displayinfo() {
-		System.out.println("name : " + name + "rollno : " + rollno);
+		System.out.println("name : " + name +
+				" rollno : " + rollno);
 		address.displayAddress();
 	}
 }
 	
-class MainApp {
-
-		public static void main(String[] args) {
-			
-			Address address = new Address();
-			
-			Student student = new Student(address);
-			
-			student.displayinfo();
-		
-		}
-}
